@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+        html {
+            margin: 0;
+            padding:0;
+            box-sizing: border-box;
+            background-image : url(https://st2.depositphotos.com/1007531/7434/i/950/depositphotos_74344623-stock-photo-seamless-paper-texture.jpg)
+          }
+
+          body{
+        min-height: 100vh;
+        flex-direction: column;
+        }
+        .flex {
+    display: flex;
+}
+        h4 {
+        font-weight: lighter;
+        font-size: larger;
+        flex-wrap:wrap;
+}
+
+.w-full {
+    width: 100%;
+}
+nav {
+    align-items: center;
+    padding: 50px;
+    border-bottom: 1px solid black;
+    font-weight: 600;
+    font-size: 22px;
+}
+nav div {
+    flex: 1;
+    flex-wrap: wrap;
+    flex: 730px;
+}
+.burger {
+    text-align: right;
+    display: none;
+    font-size: 40px;
+}
+.logo {
+    letter-spacing: 3px;
+    width: 60px;
+    display: block;
+    margin-left: auto;
+    
+}
+ul {
+    justify-content: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+ul li {
+    list-style: none;
+    padding: 0 10px;
+}
+main {
+    height: 100%;
+    font-family: sans-serif;
+    flex: 1;
+}
+main>div {
+    width: 50%;
+}
+.left-container {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px 50px;
+}
+.left-container h1 {
+    width: 220px;
+    padding-bottom: 20px;
+}
+
+.light-font {
+    font-weight: 200;
+
+}
+
+.description {
+    font-size: 21px;
+}
+
+.sub-description p {
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+.img-container {
+    background-image: url('./media/image-1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+
+@media (max-width: 968px) {
+    .logo+div {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    main>div {
+        width: 100%;
+        min-height: 570px;
+
+    }
+}
+        </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./example-responsive-style.css" />
+    <link rel="img-container" href="./media/image-1.png" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <div>
+        <span>
+          brot <br />
+          jewellery
+          <img src="./media/brot-logo.jpeg"/>
+        </span>
+      </div>
+      <div>
+        <ul>
+          <li>about</li> <link href="./brot-code-about.html"/>
+          <li>shop</li>
+          <li>collaborations</li>
+          <li>contact</li>
+        </ul>
+      </div>
+      <div>
+          <div>≓</div>
+      </div>
+    </nav>
+    <main>
+      <div>
+        <div>
+          <div><h1>Mi nombre es 
+            <br>Júlia Ventura.</h1></div>
+          <div>
+            <h4>
+              Nací y me crié en Barcelona, donde tuve la oportunidad de
+              descubrir mi pasión por la joyería estudiando Arte y Diseño en la
+              “Escuela Massana”.
+              <img src="./media/image-1.png"/>
+            </h4>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div>
+          <p>
+            Tras finalizar la carrera en Barcelona, me mudé a Florencia para
+            continuar mis estudios en la escuela de joyería contemporánea
+            "Alchimia".
+          </p>
+          <p>
+            Terminados mis estudios, volví a Barcelona para iniciar este
+            proyecto, con el que he podido desarrollar todas las ideas y
+            técnicas que he ido aprendiendo a lo largo de estos años.
+          </p>
+        </div>
+      </div>
+      <div>
+        <div><h4>Brot nace a partir de la necesidad de crear un proyecto en el cual confluyan tres grandes conceptos, muy presentes a lo largo de mi carrera. 
+            Estos son; <strong>cuerpo, la naturaleza y la joyeria.</strong>  Se podrian entender las piezas como el fruto de esta conexión entre estos tres aspectos. </h4></div>
+        <div>
+            <br>
+            <br>
+            <br>
+            <br>
+          <p>
+            El elemento que representa la naturaleza en las piezas son las piedras del mar, material 
+            que encuentro en un sitio en concreto de la Costa Brava, Colera, al cual me siento 
+            especialmente vinculada, y por ello las recogo personalmente de ese sitio, para crear 
+            entonces esta conexión no solo emocional sino tambien fisica. 
+<br>
+<br>
+Por otro lado, el cuerpo esta presente en las joyas de una manera fisica, 
+tanto desde un punto de vista simbolico como materico. La textura de todas las piezas 
+se crea a partir del contacto que tienen mis dedos al trabajar la cera roja, utilizando 
+asi la tecnica de la cera perdida, que me permite trabajar con mi propio cuerpo, para así 
+conseguir este efecto). años.
+          </p>
+        </div>
+      </div>
+      <div>
+        <p>
+          Tras finalizar la carrera en Barcelona, me mudé a Florencia para
+          continuar mis estudios en la escuela de joyería contemporánea
+          "Alchimia".
+        </p>
+        <p>
+          Terminados mis estudios, volví a Barcelona para iniciar este
+          proyecto, con el que he podido desarrollar todas las ideas y
+          técnicas que he ido aprendiendo a lo largo de estos años.
+        </p>
+      </div>
+    </div>
+      <div></div>
+    </main>
+  </body>
+</html>
